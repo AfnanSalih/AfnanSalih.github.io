@@ -269,8 +269,14 @@ body{
     }
     .about-me .about-img{
         margin-bottom: 50px;
+        left:28px
     }
-    
+    .about-me .about-img img{
+         width: 445px;
+    }
+    .about-me .about-details{
+        flex-basis: 100%;
+    }
 }
 @media (min-width:768px) and (max-width:991px){
     .about-me .container{
